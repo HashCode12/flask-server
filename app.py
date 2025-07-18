@@ -26,6 +26,10 @@ def index():
         "server_ip": get_server_ip()
     })
 
+    print("Hello")
+    print("Hello")
+
+
 if __name__ == "__main__":
     # Use 0.0.0.0 so it’s reachable from outside the container/host
     app.run(host="0.0.0.0", port=5000)
